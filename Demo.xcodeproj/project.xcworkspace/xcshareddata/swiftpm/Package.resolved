@@ -1,0 +1,15 @@
+{
+  "originHash" : "88117f0c057721f68c4c1d8cb63a9325e762cd635b396663decc2fe9299f4a00",
+  "pins" : [
+    {
+      "identity" : "spm-migration-gate-kit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/rajatslakhina/spm-migration-gate-kit.git",
+      "state" : {
+        "revision" : "0f14f9dd23c4ba1bbc47aeb19c8cbfb5c9257df0",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
