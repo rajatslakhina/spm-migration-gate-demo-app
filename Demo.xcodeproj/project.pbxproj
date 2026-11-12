@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4875AB78082116F68C9E0878 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8655F63A58BA09C4B8C9CE4C /* DemoApp.swift */; };
+		7E4D87131D1F180A785C1CDB /* MigrationGate in Frameworks */ = {isa = PBXBuildFile; productRef = 680A11F9FA09D26FFB06924B /* MigrationGate */; };
+		EFBB314FD479FC01AA9AC343 /* MigrationGateUI in Frameworks */ = {isa = PBXBuildFile; productRef = BA2C511A15C8AF38F985A58C /* MigrationGateUI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8655F63A58BA09C4B8C9CE4C /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
+		2CA640C233D8FE9E40BB73B0 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F9E1814DDF965F48CDB22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E4D87131D1F180A785C1CDB /* MigrationGate in Frameworks */,
+				EFBB314FD479FC01AA9AC343 /* MigrationGateUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F059313FF3A083FE15A77A6 = {
+			isa = PBXGroup;
+			children = (
+				768471E1D65B64A6C8706E4E /* Demo */,
+				55B566F88932DBA62A2C6367 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55B566F88932DBA62A2C6367 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CA640C233D8FE9E40BB73B0 /* Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768471E1D65B64A6C8706E4E /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8655F63A58BA09C4B8C9CE4C /* DemoApp.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F99A7605C03679CCBD796E75 /* Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF23B8A7A5B40FEDBE5DA3E /* Build configuration list for PBXNativeTarget "Demo" */;
+			buildPhases = (
+				42093A48376FDF94606A2A16 /* Sources */,
+				C2F9E1814DDF965F48CDB22B /* Frameworks */,
+				10D696DA96C36549ECB9BE43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Demo;
+			packageProductDependencies = (
+				680A11F9FA09D26FFB06924B /* MigrationGate */,
+				BA2C511A15C8AF38F985A58C /* MigrationGateUI */,
+			);
+			productName = Demo;
+			productReference = 2CA640C233D8FE9E40BB73B0 /* Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942F65E4B638C297366C7172 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F99A7605C03679CCBD796E75 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = A7124B055B50852E14A1F91D /* Build configuration list for PBXProject "Demo" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F059313FF3A083FE15A77A6;
+			packageReferences = (
+				41E25490B76F912BE5A8A475 /* XCRemoteSwiftPackageReference "spm-migration-gate-kit" */,
+			);
+			productRefGroup = 55B566F88932DBA62A2C6367 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F99A7605C03679CCBD796E75 /* Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10D696DA96C36549ECB9BE43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42093A48376FDF94606A2A16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4875AB78082116F68C9E0878 /* DemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6AE1A49B8462B8DE6DF0A7DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA6A42A5873EDA0F9D76E9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B8A9939E0EA72B625C967FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Migration Gate";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajatlakhina.MigrationGateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0474DED3A8D165450B13EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Migration Gate";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajatlakhina.MigrationGateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7124B055B50852E14A1F91D /* Build configuration list for PBXProject "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AE1A49B8462B8DE6DF0A7DB /* Debug */,
+				DA6A42A5873EDA0F9D76E9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF23B8A7A5B40FEDBE5DA3E /* Build configuration list for PBXNativeTarget "Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8A9939E0EA72B625C967FA /* Debug */,
+				D0474DED3A8D165450B13EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		41E25490B76F912BE5A8A475 /* XCRemoteSwiftPackageReference "spm-migration-gate-kit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rajatslakhina/spm-migration-gate-kit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		680A11F9FA09D26FFB06924B /* MigrationGate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41E25490B76F912BE5A8A475 /* XCRemoteSwiftPackageReference "spm-migration-gate-kit" */;
+			productName = MigrationGate;
+		};
+		BA2C511A15C8AF38F985A58C /* MigrationGateUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 41E25490B76F912BE5A8A475 /* XCRemoteSwiftPackageReference "spm-migration-gate-kit" */;
+			productName = MigrationGateUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 942F65E4B638C297366C7172 /* Project object */;
+}
