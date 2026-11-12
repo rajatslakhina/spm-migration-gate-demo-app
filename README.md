@@ -76,13 +76,14 @@ Launch arguments `-tab gate`, `-tab prompt` or `-tab ledger` open that tab and r
 
 Stated exactly, because "it builds" and "it ran" are different claims:
 
-- **Built**: `xcodebuild` for `generic/platform=iOS Simulator` (Xcode 27.2), with no compiler warnings.
-  Before the kit was published, this build went through a scratch workspace that substituted the local
-  kit checkout for the remote package; the project file itself always references the GitHub URL.
+- **Built**: this unmodified project resolved `spm-migration-gate-kit` from GitHub at **1.0.0** (the
+  committed `Package.resolved`) and built with `xcodebuild` for `generic/platform=iOS Simulator`
+  (Xcode 27.2), with no compiler warnings. GitHub Actions also builds it with Xcode 16.4 on every push.
 - **Ran on a Simulator**: the app was installed with `simctl` on a dedicated iPhone 18 Pro Simulator
   (iOS 27.2) and launched four times, with `-tab plan`, `-tab gate`, `-tab prompt` and `-tab ledger`. Each
   process was confirmed still running about 10 seconds after launch, and the four screenshots above were
-  captured from those launches of the final build.
+  captured from those launches. They were captured twice, first from a build against a local copy of the kit
+  and then from the GitHub-resolved build, and both sets are byte-identical.
 - **Not exercised**: no taps were performed. The screenshots come from launch-argument auto-runs, so the
   toolbar **Run migration** tap from the Plan tab (How to run, step 4) has been checked by reading the code
   (it calls `run()` and switches to the Gate tab), not by tapping it.
